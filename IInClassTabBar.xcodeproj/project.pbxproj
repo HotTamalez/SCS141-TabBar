@@ -13,6 +13,10 @@
 		16DF592C260A3E0500F9EE91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DF592A260A3E0500F9EE91 /* Main.storyboard */; };
 		16DF592E260A3E0A00F9EE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DF592D260A3E0A00F9EE91 /* Assets.xcassets */; };
 		16DF5931260A3E0A00F9EE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DF592F260A3E0A00F9EE91 /* LaunchScreen.storyboard */; };
+		16DF593A260A451700F9EE91 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF5939260A451700F9EE91 /* RedViewController.swift */; };
+		16DF593D260A453800F9EE91 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF593C260A453800F9EE91 /* PinkViewController.swift */; };
+		16DF5940260A456600F9EE91 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF593F260A456600F9EE91 /* VotingViewController.swift */; };
+		16DF5943260A45CF00F9EE91 /* ManagementTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF5942260A45CF00F9EE91 /* ManagementTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		16DF592D260A3E0A00F9EE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16DF5930260A3E0A00F9EE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16DF5932260A3E0A00F9EE91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DF5939260A451700F9EE91 /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		16DF593C260A453800F9EE91 /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
+		16DF593F260A456600F9EE91 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		16DF5942260A45CF00F9EE91 /* ManagementTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				16DF5926260A3E0500F9EE91 /* SceneDelegate.swift */,
 				16DF5928260A3E0500F9EE91 /* ViewController.swift */,
 				16DF592A260A3E0500F9EE91 /* Main.storyboard */,
+				16DF5942260A45CF00F9EE91 /* ManagementTabViewController.swift */,
+				16DF593F260A456600F9EE91 /* VotingViewController.swift */,
+				16DF593C260A453800F9EE91 /* PinkViewController.swift */,
+				16DF5939260A451700F9EE91 /* RedViewController.swift */,
 				16DF592D260A3E0A00F9EE91 /* Assets.xcassets */,
 				16DF592F260A3E0A00F9EE91 /* LaunchScreen.storyboard */,
 				16DF5932260A3E0A00F9EE91 /* Info.plist */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16DF593A260A451700F9EE91 /* RedViewController.swift in Sources */,
+				16DF5943260A45CF00F9EE91 /* ManagementTabViewController.swift in Sources */,
 				16DF5929260A3E0500F9EE91 /* ViewController.swift in Sources */,
 				16DF5925260A3E0500F9EE91 /* AppDelegate.swift in Sources */,
 				16DF5927260A3E0500F9EE91 /* SceneDelegate.swift in Sources */,
+				16DF593D260A453800F9EE91 /* PinkViewController.swift in Sources */,
+				16DF5940260A456600F9EE91 /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
