@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sZT-hi-mIg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1224.6376811594205" y="715.84821428571422"/>
+            <point key="canvasLocation" x="-1388" y="481"/>
         </scene>
         <!--Vote-->
         <scene sceneID="Lpu-Ci-94W">
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWE-xj-DTG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-376.81159420289856" y="748.66071428571422"/>
+            <point key="canvasLocation" x="-699" y="750"/>
         </scene>
         <!--Pink-->
         <scene sceneID="2we-SM-83P">
@@ -112,7 +112,55 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MJl-qT-lex" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="444" y="718"/>
+            <point key="canvasLocation" x="-14" y="750"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="OYo-YT-8bj">
+            <objects>
+                <viewController id="opO-pV-Cfm" customClass="TaskViewController" customModule="IInClassTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GWY-PN-2jN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&lt;Task Completed&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJs-Vc-dDb">
+                                <rect key="frame" x="57" y="87" width="301" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="alL-oN-TOe">
+                                <rect key="frame" x="38" y="173" width="339" height="262"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="wMK-py-LXw">
+                                <rect key="frame" x="38" y="483" width="339" height="4"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XOT-yb-1rk">
+                                <rect key="frame" x="136" y="581" width="142" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1580715674" green="0.1580715674" blue="0.1580715674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startTask:" destination="opO-pV-Cfm" eventType="touchUpInside" id="Ipt-sO-dyg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LSL-zb-rr5"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="EmV-zc-J3x"/>
+                    <connections>
+                        <outlet property="imposterImage" destination="alL-oN-TOe" id="ADL-zW-sl1"/>
+                        <outlet property="progressBar" destination="wMK-py-LXw" id="CjO-ay-6PU"/>
+                        <outlet property="taskLabel" destination="AJs-Vc-dDb" id="7RB-Ax-NIC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sHn-cI-0ZX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840.57971014492762" y="430.58035714285711"/>
         </scene>
         <!--Management Tab View Controller-->
         <scene sceneID="cce-Dx-zpw">
@@ -127,6 +175,7 @@
                         <segue destination="qQj-Cl-dnX" kind="relationship" relationship="viewControllers" id="jEV-Nt-pFg"/>
                         <segue destination="07R-Qx-xbH" kind="relationship" relationship="viewControllers" id="ccg-QJ-7RU"/>
                         <segue destination="eo1-5U-Uod" kind="relationship" relationship="viewControllers" id="G7g-QF-Cai"/>
+                        <segue destination="opO-pV-Cfm" kind="relationship" relationship="viewControllers" id="Cqa-mQ-a4g"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IhT-PG-GNT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

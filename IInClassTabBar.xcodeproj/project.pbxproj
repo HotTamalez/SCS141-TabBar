@@ -17,6 +17,7 @@
 		16DF593D260A453800F9EE91 /* PinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF593C260A453800F9EE91 /* PinkViewController.swift */; };
 		16DF5940260A456600F9EE91 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF593F260A456600F9EE91 /* VotingViewController.swift */; };
 		16DF5943260A45CF00F9EE91 /* ManagementTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF5942260A45CF00F9EE91 /* ManagementTabViewController.swift */; };
+		16DF5A7A26161E5200F9EE91 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16DF5A7926161E5200F9EE91 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		16DF593C260A453800F9EE91 /* PinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinkViewController.swift; sourceTree = "<group>"; };
 		16DF593F260A456600F9EE91 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 		16DF5942260A45CF00F9EE91 /* ManagementTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementTabViewController.swift; sourceTree = "<group>"; };
+		16DF5A7926161E5200F9EE91 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				16DF5926260A3E0500F9EE91 /* SceneDelegate.swift */,
 				16DF5928260A3E0500F9EE91 /* ViewController.swift */,
 				16DF592A260A3E0500F9EE91 /* Main.storyboard */,
+				16DF5A7926161E5200F9EE91 /* TaskViewController.swift */,
 				16DF5942260A45CF00F9EE91 /* ManagementTabViewController.swift */,
 				16DF593F260A456600F9EE91 /* VotingViewController.swift */,
 				16DF593C260A453800F9EE91 /* PinkViewController.swift */,
@@ -154,6 +157,7 @@
 				16DF5929260A3E0500F9EE91 /* ViewController.swift in Sources */,
 				16DF5925260A3E0500F9EE91 /* AppDelegate.swift in Sources */,
 				16DF5927260A3E0500F9EE91 /* SceneDelegate.swift in Sources */,
+				16DF5A7A26161E5200F9EE91 /* TaskViewController.swift in Sources */,
 				16DF593D260A453800F9EE91 /* PinkViewController.swift in Sources */,
 				16DF5940260A456600F9EE91 /* VotingViewController.swift in Sources */,
 			);
